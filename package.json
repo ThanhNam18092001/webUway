@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "sass": "^1.72.0"
+  },
+  
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "scss": "node-sass --watch ./style/style.scss -o ./style/style.css"
+  }
+}
