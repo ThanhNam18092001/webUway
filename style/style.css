@@ -4,6 +4,7 @@ body {
 body ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 body a {
   text-decoration: none;
@@ -16,6 +17,13 @@ body h4 {
   margin: 0;
 }
 
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 999;
+}
 header .phone-email-container {
   display: flex;
   justify-content: flex-end;
@@ -442,6 +450,259 @@ main section .simple-transparent-pricing-container .content-container .content-i
   color: var(--Black, #000);
   font-size: 16px;
   font-weight: 300;
+  line-height: 150%;
+}
+main section .our-projects-container {
+  margin: 70px;
+  border-radius: 16px;
+  background: #F8F6F1;
+  padding: 80px 0;
+}
+main section .our-projects-container .title-container {
+  text-align: center;
+  position: relative;
+}
+main section .our-projects-container .title-container h1 {
+  color: var(--Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+}
+main section .our-projects-container .title-container h1 span {
+  color: var(--Brand-green-Green-09, #008253);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+}
+main section .our-projects-container .title-container img {
+  position: absolute;
+  top: 60px;
+  right: 200px;
+}
+main section .our-projects-container .content-container {
+  text-align: center;
+  margin-top: 80px;
+  gap: 24px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+main section .our-projects-container .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+main section .our-projects-container .btn-container button {
+  border-radius: 12px;
+  border: 1px solid var(--Black, #000);
+  background: transparent;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  color: var(--Black, #000);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+main section .our-projects-container .btn-container button:hover {
+  background: #000;
+  color: white;
+}
+main section .our-partners-container {
+  padding: 70px 100px;
+  display: grid;
+  gap: 40px;
+}
+main section .our-partners-container h1 {
+  color: var(--Black, #000);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+}
+main section .our-partners-container h1 span {
+  color: var(--Brand-green-Green-09, #008253);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 150%;
+}
+main section .our-partners-container .content {
+  color: var(--Black, #000);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+main section .our-partners-container .content-container {
+  display: grid;
+  gap: 80px;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  justify-content: center;
+}
+main section .page07-container {
+  position: relative;
+  margin: 70px 100px 140px;
+  display: grid;
+  justify-content: center;
+}
+main section .page07-container .form-container {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 59px 105px;
+  border-radius: 24px;
+  border: 1px solid var(--Neutral-20, #E2E8F0);
+  background: #FFF;
+  display: grid;
+  gap: 40px;
+  max-width: 800px;
+  width: 100%;
+}
+main section .page07-container .form-container h1 {
+  color: var(--Black, #000);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+main section .page07-container .form-container .input-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+main section .page07-container .form-container .input-container input {
+  padding: 12px 24px;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--Neutral-20, #E2E8F0);
+  background: #FFF;
+  color: var(--Black, #000);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+main section .page07-container .form-container .input-container .email-container {
+  display: grid;
+  gap: 16px;
+}
+main section .page07-container .form-container .input-container .email-container p {
+  color: var(--Black, #000);
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+}
+main section .page07-container .form-container .input-container button {
+  height: 48px;
+  border-radius: 12px;
+  background: var(--Brand-green-Green-09, #008253);
+  padding: 10px 24px;
+  color: var(--White, #FFF);
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+main section .page07-container .form-container .input-container button:hover {
+  color: white;
+  background: #000;
+}
+
+footer {
+  margin: 70px 0 0 0;
+  padding: 80px 0 40px 0;
+  display: grid;
+  gap: 80px;
+}
+footer .footer-container {
+  display: flex;
+  gap: 120px;
+  padding: 0 20px;
+}
+footer .footer-container .footer-item {
+  display: flex;
+  gap: 140px;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+}
+footer .footer-container .footer-item .footer {
+  display: grid;
+  gap: 24px;
+}
+footer .footer-container .footer-item .footer p {
+  color: var(--Black, #000);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+footer .footer-container .footer-item .footer ul {
+  display: grid;
+  gap: 8px;
+}
+footer .footer-container .footer-item .footer ul li {
+  display: flex;
+  gap: 8px;
+  justify-content: start;
+  align-items: start;
+}
+footer .footer-container .footer-item .footer ul li p {
+  color: var(--Gray-95, #141414);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: none;
+}
+footer .footer-container .footer-item .footer ul li p.email {
+  text-decoration-line: underline;
+}
+footer .footer-container .footer-item .footer-icon {
+  display: grid;
+  gap: 24px;
+}
+footer .footer-container .footer-item .footer-icon p {
+  color: var(--Black, #000);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+footer .footer-container .footer-item .footer-icon ul {
+  display: flex;
+  gap: 16px;
+}
+footer .infomation-container {
+  display: flex;
+  gap: 40px;
+  padding: 0 40px;
+  justify-content: end;
+}
+footer .infomation-container p {
+  color: var(--Black, #000);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 400;
   line-height: 150%;
 }
 
