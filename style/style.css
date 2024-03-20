@@ -262,8 +262,10 @@ main section .why-us-container .content-container .right-why-us .card-container 
   font-weight: 400;
   line-height: 150%;
 }
-main section .why-us-container .content-container .right-why-us .btn-right button {
+main section .why-us-container .content-container .right-why-us .btn-right {
   display: none;
+}
+main section .why-us-container .content-container .right-why-us .btn-right button {
   border-radius: 12px;
   border: 1px solid var(--Black, #000);
   display: inline-flex;
@@ -829,6 +831,10 @@ footer .infomation-container p {
   main section .our-projects-container .content-container {
     grid-template-rows: none;
     grid-template-columns: none;
+  }
+  main section .our-projects-container .content-container img {
+    max-width: 361px;
+    width: 100%;
   }
   main section .our-partners-container {
     padding: 50px 16px;

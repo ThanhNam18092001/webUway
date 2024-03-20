@@ -323,8 +323,8 @@ main {
                     }
 
                     .btn-right {
+                        display: none;
                         button {
-                            display: none;
                             border-radius: 12px;
                             border: 1px solid var(--Black, #000);
                             display: inline-flex;
@@ -1010,6 +1010,10 @@ footer {
                 .content-container {
                     grid-template-rows: none;
                     grid-template-columns: none;
+                    img {
+                        max-width: 361px;
+                        width: 100%;
+                    }
                 }
             }
 
