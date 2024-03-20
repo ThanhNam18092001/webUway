@@ -745,7 +745,24 @@ footer .infomation-container p {
     display: none;
   }
   main section .design-development-container {
-    padding: 140px 16px 174px;
+    padding: 140px 16px 70px;
+  }
+  main section .design-development-container .circle-container .circle {
+    width: 50px;
+    height: 50px;
+  }
+  main section .design-development-container .circle-container .u-img {
+    left: 13px !important;
+    top: 15px !important;
+    width: 24px;
+    height: 24px;
+  }
+  main section .design-development-container .content-container {
+    gap: 8px;
+  }
+  main section .design-development-container .comment-cursor-container .comment-cursor-img {
+    right: -2% !important;
+    top: 40px;
   }
   main section .design-development-container h1 {
     font-size: 32px;
