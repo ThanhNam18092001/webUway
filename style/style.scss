@@ -321,6 +321,39 @@ main {
                             line-height: 150%;
                         }
                     }
+
+                    .btn-right {
+                        button {
+                            display: none;
+                            border-radius: 12px;
+                            border: 1px solid var(--Black, #000);
+                            display: inline-flex;
+                            justify-content: center;
+                            align-items: center;
+                            cursor: pointer;
+                            transition: all 0.5s ease;
+                            background: transparent;
+
+                            &:hover {
+                                background: #000;
+                            }
+
+                            p {
+                                color: var(--Black, #000);
+                                text-align: center;
+                                font-size: 16px;
+                                font-weight: 500;
+                                line-height: 150%;
+                                padding: 10px 24px;
+                                transition: all 0.5s ease;
+
+                                &:hover {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+
                 }
             }
         }
@@ -834,6 +867,217 @@ footer {
             font-size: 12px;
             font-weight: 400;
             line-height: 150%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    header {
+        .phone-email-container {
+            display: none;
+        }
+
+        .header-container {
+            padding: 0 16px;
+
+            .menu-container {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        section {
+            .design-development-container {
+                padding: 140px 16px 174px;
+
+                h1 {
+                    font-size: 32px;
+
+                    span {
+                        font-size: 32px;
+                    }
+                }
+            }
+
+            .rubber-laptop-mockup {
+                padding: 0 16px;
+            }
+
+            .commonly-container {
+                padding: 140px 16px 70px;
+
+                .title-container {
+                    .text {
+                        h1 {
+                            font-size: 32px;
+
+                            span {
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                }
+
+                .img-container {
+                    display: grid;
+                    gap: 24px;
+                }
+            }
+
+            .why-us-container {
+                padding: 70px 16px;
+                gap: 40px;
+
+                .title-container {
+                    h1 {
+                        font-size: 32px;
+                        text-align: center;
+                    }
+                }
+
+                .content-container {
+                    display: grid;
+                    gap: 24px;
+
+                    .left-why-us {
+                        width: 100%;
+
+                        p {
+                            font-size: 24px;
+                            text-align: center;
+                        }
+
+                        .comment-cursor-why-us {
+                            display: none;
+                        }
+
+                        button {
+                            display: none;
+                        }
+                    }
+
+                    .right-why-us {
+                        width: 100%;
+
+                        .btn-right {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            button {
+                                display: block;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .simple-transparent-pricing-container {
+                padding: 70px 16px;
+                gap: 40px;
+
+                .title-container {
+                    h1 {
+                        font-size: 32px;
+                    }
+                }
+
+                .content-container {
+                    display: grid;
+                }
+            }
+
+            .our-projects-container {
+                margin: 0;
+                padding: 50px 0;
+
+                .title-container {
+                    h1 {
+                        font-size: 32px;
+
+                        span {
+                            font-size: 32px;
+                        }
+                    }
+
+                    img {
+                        display: none;
+                    }
+                }
+
+                .content-container {
+                    grid-template-rows: none;
+                    grid-template-columns: none;
+                }
+            }
+
+            .our-partners-container {
+                padding: 50px 16px;
+                gap: 24px;
+
+                h1 {
+                    font-size: 32px;
+
+                    span {
+                        font-size: 32px;
+                    }
+                }
+
+                .content-container {
+                    gap: 24px;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: none;
+                }
+            }
+
+            .page07-container {
+                margin: 70px 16px 140px;
+
+                .form-container {
+                    top: 180%;
+                    padding: 24px;
+                    max-width: 320px;
+
+                    h1 {
+                        font-size: 32px;
+                    }
+
+                    .input-container {
+                        display: grid;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        margin: 300px 0 0 0;
+        gap: 40px;
+
+        .footer-container {
+            display: grid;
+            gap: 40px;
+
+            .footer-item {
+                display: grid;
+                gap: 40px;
+
+                .order {
+                    order: 1;
+                }
+
+                .footer-icon {
+                    order: 2;
+                }
+            }
+        }
+
+        .infomation-container {
+            gap: 24px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }

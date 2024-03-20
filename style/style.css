@@ -262,6 +262,32 @@ main section .why-us-container .content-container .right-why-us .card-container 
   font-weight: 400;
   line-height: 150%;
 }
+main section .why-us-container .content-container .right-why-us .btn-right button {
+  display: none;
+  border-radius: 12px;
+  border: 1px solid var(--Black, #000);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  background: transparent;
+}
+main section .why-us-container .content-container .right-why-us .btn-right button:hover {
+  background: #000;
+}
+main section .why-us-container .content-container .right-why-us .btn-right button p {
+  color: var(--Black, #000);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 10px 24px;
+  transition: all 0.5s ease;
+}
+main section .why-us-container .content-container .right-why-us .btn-right button p:hover {
+  color: white;
+}
 main section .simple-transparent-pricing-container {
   padding: 70px 100px;
   display: grid;
@@ -704,6 +730,158 @@ footer .infomation-container p {
   font-size: 12px;
   font-weight: 400;
   line-height: 150%;
+}
+
+@media only screen and (max-width: 767.98px) {
+  header .phone-email-container {
+    display: none;
+  }
+  header .header-container {
+    padding: 0 16px;
+  }
+  header .header-container .menu-container {
+    display: none;
+  }
+  main section .design-development-container {
+    padding: 140px 16px 174px;
+  }
+  main section .design-development-container h1 {
+    font-size: 32px;
+  }
+  main section .design-development-container h1 span {
+    font-size: 32px;
+  }
+  main section .rubber-laptop-mockup {
+    padding: 0 16px;
+  }
+  main section .commonly-container {
+    padding: 140px 16px 70px;
+  }
+  main section .commonly-container .title-container .text h1 {
+    font-size: 32px;
+  }
+  main section .commonly-container .title-container .text h1 span {
+    font-size: 32px;
+  }
+  main section .commonly-container .img-container {
+    display: grid;
+    gap: 24px;
+  }
+  main section .why-us-container {
+    padding: 70px 16px;
+    gap: 40px;
+  }
+  main section .why-us-container .title-container h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  main section .why-us-container .content-container {
+    display: grid;
+    gap: 24px;
+  }
+  main section .why-us-container .content-container .left-why-us {
+    width: 100%;
+  }
+  main section .why-us-container .content-container .left-why-us p {
+    font-size: 24px;
+    text-align: center;
+  }
+  main section .why-us-container .content-container .left-why-us .comment-cursor-why-us {
+    display: none;
+  }
+  main section .why-us-container .content-container .left-why-us button {
+    display: none;
+  }
+  main section .why-us-container .content-container .right-why-us {
+    width: 100%;
+  }
+  main section .why-us-container .content-container .right-why-us .btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main section .why-us-container .content-container .right-why-us .btn-right button {
+    display: block;
+  }
+  main section .simple-transparent-pricing-container {
+    padding: 70px 16px;
+    gap: 40px;
+  }
+  main section .simple-transparent-pricing-container .title-container h1 {
+    font-size: 32px;
+  }
+  main section .simple-transparent-pricing-container .content-container {
+    display: grid;
+  }
+  main section .our-projects-container {
+    margin: 0;
+    padding: 50px 0;
+  }
+  main section .our-projects-container .title-container h1 {
+    font-size: 32px;
+  }
+  main section .our-projects-container .title-container h1 span {
+    font-size: 32px;
+  }
+  main section .our-projects-container .title-container img {
+    display: none;
+  }
+  main section .our-projects-container .content-container {
+    grid-template-rows: none;
+    grid-template-columns: none;
+  }
+  main section .our-partners-container {
+    padding: 50px 16px;
+    gap: 24px;
+  }
+  main section .our-partners-container h1 {
+    font-size: 32px;
+  }
+  main section .our-partners-container h1 span {
+    font-size: 32px;
+  }
+  main section .our-partners-container .content-container {
+    gap: 24px;
+    grid-template-columns: auto auto;
+    grid-template-rows: none;
+  }
+  main section .page07-container {
+    margin: 70px 16px 140px;
+  }
+  main section .page07-container .form-container {
+    top: 180%;
+    padding: 24px;
+    max-width: 320px;
+  }
+  main section .page07-container .form-container h1 {
+    font-size: 32px;
+  }
+  main section .page07-container .form-container .input-container {
+    display: grid;
+  }
+  footer {
+    margin: 300px 0 0 0;
+    gap: 40px;
+  }
+  footer .footer-container {
+    display: grid;
+    gap: 40px;
+  }
+  footer .footer-container .footer-item {
+    display: grid;
+    gap: 40px;
+  }
+  footer .footer-container .footer-item .order {
+    order: 1;
+  }
+  footer .footer-container .footer-item .footer-icon {
+    order: 2;
+  }
+  footer .infomation-container {
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
