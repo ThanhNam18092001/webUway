@@ -1033,6 +1033,10 @@ footer {
                     gap: 24px;
                     grid-template-columns: auto auto;
                     grid-template-rows: none;
+                    img {
+                        max-width: 160px;
+                        width: 100%;
+                    }
                 }
             }
 

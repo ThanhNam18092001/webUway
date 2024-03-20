@@ -851,6 +851,10 @@ footer .infomation-container p {
     grid-template-columns: auto auto;
     grid-template-rows: none;
   }
+  main section .our-partners-container .content-container img {
+    max-width: 160px;
+    width: 100%;
+  }
   main section .page07-container {
     margin: 70px 16px 140px;
   }
