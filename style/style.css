@@ -157,6 +157,9 @@ main section .design-development-container .comment-cursor-container .comment-cu
 main section .rubber-laptop-mockup {
   padding: 0 74px;
 }
+main section .rubber-laptop-mockup img {
+  border-radius: 16px;
+}
 main section .commonly-container {
   padding: 140px 100px 70px 100px;
   display: grid;
