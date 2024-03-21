@@ -906,7 +906,7 @@ footer .infomation-container p {
     font-size: 13px;
   }
   main section .commonly-container .img-container .commonly-item .commonly-item-content img {
-    width: 313.355px;
+    width: 313.355px !important;
     height: 100px;
   }
   main section .why-us-container {
