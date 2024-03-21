@@ -29,7 +29,7 @@ header .phone-email-container {
   justify-content: flex-end;
   gap: 40px;
   border-bottom: 0.5px solid var(--Brand-green-Gray-02, #E6E6E6);
-  padding: 0 100px 8px;
+  padding: 8px 100px;
 }
 header .phone-email-container .phone-container {
   display: flex;
@@ -108,7 +108,7 @@ header .header-container .btn-container button p {
 }
 
 main section .design-development-container {
-  padding: 140px 180px 174px;
+  padding: 240px 180px 174px;
 }
 main section .design-development-container .content-container {
   display: flex;
@@ -192,8 +192,70 @@ main section .commonly-container .img-container {
   gap: 27px;
   justify-content: center;
 }
-main section .commonly-container .img-container img {
-  width: 100%;
+main section .commonly-container .img-container .commonly-item {
+  position: relative;
+  border-radius: 24px;
+  background: var(--Neutral-05, #F5F8FB);
+  padding: 24px;
+  display: grid;
+  justify-content: space-between;
+  gap: 48px;
+}
+main section .commonly-container .img-container .commonly-item .commonly-logo-img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-radius: 0 24px 0 0;
+}
+main section .commonly-container .img-container .commonly-item .commonly-item-title {
+  z-index: 9;
+  display: grid;
+  gap: 23px;
+}
+main section .commonly-container .img-container .commonly-item .commonly-item-title h2 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 120%;
+}
+main section .commonly-container .img-container .commonly-item .commonly-item-title p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+main section .commonly-container .img-container .commonly-item-content {
+  display: flex;
+  justify-content: start;
+  gap: 16px;
+  align-items: center;
+}
+main section .commonly-container .img-container .commonly-item-content h1 {
+  color: var(--Blue-Crayola-Main, #5A78FF);
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 120%;
+}
+main section .commonly-container .img-container .commonly-item-content p {
+  color: var(--Gray-95, #141414);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+}
+main section .commonly-container .img-container .commonly-item-content .text {
+  color: var(--Black, #000);
+  text-align: center;
+  font-size: 46.976px;
+  font-weight: 600;
+  line-height: 40.265px;
+}
+main section .commonly-container .img-container .commonly-item-content .text img {
+  width: 136.878px;
+  height: 50.897px;
+  transform: rotate(-4deg);
+  flex-shrink: 0;
 }
 main section .why-us-container {
   padding: 70px 100px;
@@ -522,6 +584,33 @@ main section .our-projects-container .content-container {
   grid-template-columns: auto auto auto;
   justify-content: center;
 }
+main section .our-projects-container .content-container .content-item {
+  position: relative;
+  width: 100%;
+}
+main section .our-projects-container .content-container .content-item .text-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: absolute;
+  padding: 16px;
+  gap: 10px;
+}
+main section .our-projects-container .content-container .content-item .text-container p {
+  border-radius: 999px;
+  background: var(--White, #FFF);
+  display: flex;
+  height: 32px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--Black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 150%;
+}
 main section .our-projects-container .btn-container {
   display: flex;
   justify-content: center;
@@ -656,6 +745,9 @@ main section .page07-container .form-container .input-container button:hover {
   color: white;
   background: #000;
 }
+main section .page07-container .form-container .input-container .note-container {
+  display: none;
+}
 
 footer {
   margin: 70px 0 0 0;
@@ -789,6 +881,28 @@ footer .infomation-container p {
     display: grid;
     gap: 24px;
   }
+  main section .commonly-container .img-container .commonly-item .commonly-logo-img {
+    width: 50px;
+    height: 50px;
+  }
+  main section .commonly-container .img-container .commonly-item .commonly-item-title h2 {
+    font-size: 28px;
+  }
+  main section .commonly-container .img-container .commonly-item .commonly-item-content h1 {
+    font-size: 60px;
+  }
+  main section .commonly-container .img-container .commonly-item .commonly-item-content p {
+    font-size: 13px;
+  }
+  main section .commonly-container .img-container .commonly-item .commonly-item-content .text {
+    font-size: 38.823px;
+  }
+  main section .commonly-container .img-container .commonly-item .commonly-item-content .text img {
+    width: 113.122px;
+    height: 42.063px;
+    transform: rotate(-4deg);
+    flex-shrink: 0;
+  }
   main section .why-us-container {
     padding: 70px 16px;
     gap: 40px;
@@ -852,10 +966,6 @@ footer .infomation-container p {
     grid-template-rows: none;
     grid-template-columns: none;
   }
-  main section .our-projects-container .content-container img {
-    max-width: 361px;
-    width: 100%;
-  }
   main section .our-partners-container {
     padding: 50px 16px;
     gap: 24px;
@@ -888,6 +998,22 @@ footer .infomation-container p {
   }
   main section .page07-container .form-container .input-container {
     display: grid;
+    justify-content: normal;
+  }
+  main section .page07-container .form-container .input-container .email-container p {
+    display: none;
+  }
+  main section .page07-container .form-container .input-container .btn-email {
+    display: flex;
+    justify-content: center;
+  }
+  main section .page07-container .form-container .input-container .note-container {
+    display: flex;
+    justify-content: center;
+    color: var(--Black, #000);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 150%;
   }
   footer {
     margin: 300px 0 0 0;
