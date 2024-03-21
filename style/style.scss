@@ -281,7 +281,7 @@ main {
 
                 .commonly-item-content {
                     display: flex;
-                    justify-content: start;
+                    justify-content: center;
                     gap: 16px;
                     align-items: center;
 
@@ -1071,6 +1071,7 @@ footer {
                     gap: 24px;
 
                     .commonly-item {
+                        width: 313px;
 
                         .commonly-logo-img {
                             width: 50px;
