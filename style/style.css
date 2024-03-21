@@ -174,6 +174,7 @@ main section .commonly-container .title-container .text h1 {
   font-size: 56px;
   font-weight: 600;
   line-height: 120%;
+  width: 800px;
 }
 main section .commonly-container .title-container .text h1 span {
   color: var(--Brand-green-Green-09, #008253);
@@ -186,6 +187,7 @@ main section .commonly-container .title-container .content p {
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
+  width: 800px;
 }
 main section .commonly-container .img-container {
   display: flex;
@@ -865,6 +867,7 @@ footer .infomation-container p {
   }
   main section .design-development-container h1 {
     font-size: 28px;
+    width: 340px;
   }
   main section .design-development-container h1 span {
     font-size: 28px;
@@ -877,9 +880,13 @@ footer .infomation-container p {
   }
   main section .commonly-container .title-container .text h1 {
     font-size: 32px;
+    width: 100%;
   }
   main section .commonly-container .title-container .text h1 span {
     font-size: 32px;
+  }
+  main section .commonly-container .title-container .content p {
+    width: 100%;
   }
   main section .commonly-container .img-container {
     display: grid;

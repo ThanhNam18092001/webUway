@@ -213,6 +213,7 @@ main {
                         font-size: 56px;
                         font-weight: 600;
                         line-height: 120%;
+                        width: 800px;
 
                         span {
                             color: var(--Brand-green-Green-09, #008253);
@@ -229,6 +230,7 @@ main {
                         font-size: 16px;
                         font-weight: 400;
                         line-height: 150%;
+                        width: 800px;
                     }
                 }
             }
@@ -1033,7 +1035,7 @@ footer {
 
                 h1 {
                     font-size: 28px;
-
+                    width: 340px;
                     span {
                         font-size: 28px;
                     }
@@ -1051,10 +1053,15 @@ footer {
                     .text {
                         h1 {
                             font-size: 32px;
-
+                            width: 100%;
                             span {
                                 font-size: 32px;
                             }
+                        }
+                    }
+                    .content {
+                        p {
+                            width: 100%;
                         }
                     }
                 }
