@@ -1002,7 +1002,7 @@ footer .infomation-container p {
   main section .page07-container .form-container {
     top: 180%;
     padding: 24px;
-    max-width: 300px;
+    max-width: 300px !important;
   }
   main section .page07-container .form-container h1 {
     font-size: 32px;
