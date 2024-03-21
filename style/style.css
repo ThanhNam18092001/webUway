@@ -867,6 +867,7 @@ footer .infomation-container p {
   }
   main section .design-development-container .content-container {
     gap: 8px;
+    align-items: center;
   }
   main section .design-development-container .comment-cursor-container .comment-cursor-img {
     right: -2% !important;
