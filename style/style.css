@@ -246,18 +246,9 @@ main section .commonly-container .img-container .commonly-item-content p {
   font-weight: 300;
   line-height: 150%;
 }
-main section .commonly-container .img-container .commonly-item-content .text {
-  color: var(--Black, #000);
-  text-align: center;
-  font-size: 46.976px;
-  font-weight: 600;
-  line-height: 40.265px;
-}
-main section .commonly-container .img-container .commonly-item-content .text img {
-  width: 136.878px;
-  height: 50.897px;
-  transform: rotate(-4deg);
-  flex-shrink: 0;
+main section .commonly-container .img-container .commonly-item-content img {
+  width: 379.16px;
+  height: 121px;
 }
 main section .why-us-container {
   padding: 70px 100px;
@@ -474,6 +465,8 @@ main section .simple-transparent-pricing-container .content-container .content-i
   position: absolute;
   right: -30px;
   top: -90px;
+  width: 118.656px;
+  height: 115.794px;
 }
 main section .simple-transparent-pricing-container .content-container .content-item-popular .title-content-container h3 {
   color: var(--Black, #000);
@@ -676,6 +669,10 @@ main section .our-partners-container .content-container {
   grid-template-columns: auto auto auto auto auto;
   justify-content: center;
 }
+main section .our-partners-container .content-container img {
+  width: 184px;
+  height: 80px;
+}
 main section .page07-container {
   position: relative;
   margin: 70px 100px 140px;
@@ -873,7 +870,7 @@ footer .infomation-container p {
     font-size: 28px;
   }
   main section .rubber-laptop-mockup {
-    padding: 0 16px;
+    padding: 0;
   }
   main section .commonly-container {
     padding: 140px 16px 70px;
@@ -905,14 +902,9 @@ footer .infomation-container p {
   main section .commonly-container .img-container .commonly-item .commonly-item-content p {
     font-size: 13px;
   }
-  main section .commonly-container .img-container .commonly-item .commonly-item-content .text {
-    font-size: 38.823px;
-  }
-  main section .commonly-container .img-container .commonly-item .commonly-item-content .text img {
-    width: 113.122px;
-    height: 42.063px;
-    transform: rotate(-4deg);
-    flex-shrink: 0;
+  main section .commonly-container .img-container .commonly-item .commonly-item-content img {
+    width: 313.355px;
+    height: 100px;
   }
   main section .why-us-container {
     padding: 70px 16px;
@@ -993,11 +985,11 @@ footer .infomation-container p {
     grid-template-rows: none;
   }
   main section .our-partners-container .content-container img {
-    max-width: 160px;
-    width: 100%;
+    width: 160px;
+    height: 80px;
   }
   main section .page07-container {
-    margin: 70px 16px 140px;
+    margin: 70px 0px 140px;
   }
   main section .page07-container .form-container {
     top: 180%;
