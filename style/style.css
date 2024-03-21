@@ -67,8 +67,7 @@ header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 100px;
-  margin-top: 12px;
+  padding: 12px 100px;
 }
 header .header-container .img-logo-container {
   height: 100%;
@@ -202,6 +201,7 @@ main section .commonly-container .img-container .commonly-item {
   display: grid;
   justify-content: space-between;
   gap: 48px;
+  width: 400px;
 }
 main section .commonly-container .img-container .commonly-item .commonly-logo-img {
   width: 100px;
