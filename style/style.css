@@ -584,6 +584,10 @@ main section .our-projects-container .content-container {
   grid-template-columns: auto auto auto;
   justify-content: center;
 }
+main section .our-projects-container .content-container img {
+  max-width: 361px;
+  width: 100%;
+}
 main section .our-projects-container .content-container .content-item {
   position: relative;
   width: 100%;
@@ -991,7 +995,7 @@ footer .infomation-container p {
   main section .page07-container .form-container {
     top: 180%;
     padding: 24px;
-    max-width: 320px;
+    max-width: 300px;
   }
   main section .page07-container .form-container h1 {
     font-size: 32px;
@@ -1023,9 +1027,14 @@ footer .infomation-container p {
     display: grid;
     gap: 40px;
   }
+  footer .footer-container .footer-logo-container {
+    display: flex;
+    justify-content: center;
+  }
   footer .footer-container .footer-item {
     display: grid;
     gap: 40px;
+    justify-content: normal;
   }
   footer .footer-container .footer-item .order {
     order: 1;

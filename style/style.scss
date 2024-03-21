@@ -699,6 +699,11 @@ main {
                 grid-template-columns: auto auto auto;
                 justify-content: center;
 
+                img {
+                    max-width: 361px;
+                    width: 100%;
+                }
+
                 .content-item {
                     position: relative;
                     width: 100%;
@@ -1215,7 +1220,7 @@ footer {
                 .form-container {
                     top: 180%;
                     padding: 24px;
-                    max-width: 320px;
+                    max-width: 300px;
 
                     h1 {
                         font-size: 32px;
@@ -1258,9 +1263,15 @@ footer {
             display: grid;
             gap: 40px;
 
+            .footer-logo-container {
+                display: flex;
+                justify-content: center;
+            }
+
             .footer-item {
                 display: grid;
                 gap: 40px;
+                justify-content: normal;
 
                 .order {
                     order: 1;
