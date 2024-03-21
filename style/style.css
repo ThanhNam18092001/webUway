@@ -201,7 +201,6 @@ main section .commonly-container .img-container .commonly-item {
   display: grid;
   justify-content: space-between;
   gap: 48px;
-  width: 400px;
 }
 main section .commonly-container .img-container .commonly-item .commonly-logo-img {
   width: 100px;
@@ -890,7 +889,7 @@ footer .infomation-container p {
     gap: 24px;
   }
   main section .commonly-container .img-container .commonly-item {
-    width: 313px;
+    width: 100%;
   }
   main section .commonly-container .img-container .commonly-item .commonly-logo-img {
     width: 50px;
