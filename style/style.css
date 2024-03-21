@@ -9,6 +9,9 @@ body ul {
 body a {
   text-decoration: none;
 }
+body input {
+  font-family: Poppins;
+}
 body p,
 body h1,
 body h2,
@@ -93,6 +96,7 @@ header .header-container .btn-container button {
   cursor: pointer;
   transition: all 0.5s ease;
   border: 1px solid transparent;
+  font-family: Poppins;
 }
 header .header-container .btn-container button:hover {
   background: #000;
@@ -285,6 +289,7 @@ main section .why-us-container .content-container .left-why-us button {
   cursor: pointer;
   transition: all 0.5s ease;
   background: transparent;
+  font-family: Poppins;
 }
 main section .why-us-container .content-container .left-why-us button:hover {
   background: #000;
@@ -331,6 +336,7 @@ main section .why-us-container .content-container .right-why-us .btn-right butto
   cursor: pointer;
   transition: all 0.5s ease;
   background: transparent;
+  font-family: Poppins;
 }
 main section .why-us-container .content-container .right-why-us .btn-right button:hover {
   background: #000;
@@ -417,6 +423,7 @@ main section .simple-transparent-pricing-container .content-container .content-i
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.5s ease;
+  font-family: Poppins;
 }
 main section .simple-transparent-pricing-container .content-container .content-item button:hover {
   background: #000;
@@ -508,6 +515,7 @@ main section .simple-transparent-pricing-container .content-container .content-i
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.5s ease;
+  font-family: Poppins;
 }
 main section .simple-transparent-pricing-container .content-container .content-item-popular button:hover {
   background: #000;
@@ -629,6 +637,7 @@ main section .our-projects-container .btn-container button {
   line-height: 150%;
   cursor: pointer;
   transition: all 0.5s ease;
+  font-family: Poppins;
 }
 main section .our-projects-container .btn-container button:hover {
   background: #000;
@@ -742,6 +751,7 @@ main section .page07-container .form-container .input-container button {
   line-height: 150%;
   cursor: pointer;
   transition: all 0.5s ease;
+  font-family: Poppins;
 }
 main section .page07-container .form-container .input-container button:hover {
   color: white;

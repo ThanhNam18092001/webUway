@@ -11,6 +11,10 @@ body {
         text-decoration: none;
     }
 
+    input {
+        font-family: Poppins;
+    }
+
     p,
     h1,
     h2,
@@ -111,6 +115,7 @@ header {
                 cursor: pointer;
                 transition: all 0.5s ease;
                 border: 1px solid transparent;
+                font-family: Poppins;
 
                 &:hover {
                     background: #000;
@@ -347,6 +352,7 @@ main {
                         cursor: pointer;
                         transition: all 0.5s ease;
                         background: transparent;
+                        font-family: Poppins;
 
                         &:hover {
                             background: #000;
@@ -400,6 +406,7 @@ main {
                             cursor: pointer;
                             transition: all 0.5s ease;
                             background: transparent;
+                            font-family: Poppins;
 
                             &:hover {
                                 background: #000;
@@ -503,6 +510,7 @@ main {
                         border: 1px solid transparent;
                         cursor: pointer;
                         transition: all 0.5s ease;
+                        font-family: Poppins;
 
                         &:hover {
                             background: #000;
@@ -608,6 +616,7 @@ main {
                         border: 1px solid transparent;
                         cursor: pointer;
                         transition: all 0.5s ease;
+                        font-family: Poppins;
 
                         &:hover {
                             background: #000;
@@ -748,6 +757,7 @@ main {
                     line-height: 150%;
                     cursor: pointer;
                     transition: all 0.5s ease;
+                    font-family: Poppins;
 
                     &:hover {
                         background: #000;
@@ -875,6 +885,7 @@ main {
                         line-height: 150%;
                         cursor: pointer;
                         transition: all 0.5s ease;
+                        font-family: Poppins;
 
                         &:hover {
                             color: white;
