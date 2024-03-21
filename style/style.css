@@ -19,6 +19,19 @@ body h3,
 body h4 {
   margin: 0;
 }
+body .up {
+  display: none;
+}
+@media only screen and (max-width: 767.98px) {
+  body .up {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+  }
+}
 
 header {
   position: fixed;
@@ -884,7 +897,7 @@ footer .infomation-container p {
     padding: 0;
   }
   main section .commonly-container {
-    padding: 140px 16px 70px;
+    padding: 100px 16px 50px;
   }
   main section .commonly-container .title-container .text h1 {
     font-size: 32px;
@@ -921,7 +934,7 @@ footer .infomation-container p {
     height: 100px;
   }
   main section .why-us-container {
-    padding: 70px 16px;
+    padding: 50px 16px;
     gap: 40px;
   }
   main section .why-us-container .title-container h1 {
@@ -1003,7 +1016,7 @@ footer .infomation-container p {
     height: 80px;
   }
   main section .page07-container {
-    margin: 70px 0px 140px;
+    margin: 50px 0px 100px;
   }
   main section .page07-container .form-container {
     top: 180%;
